@@ -33,7 +33,7 @@ class Block{
       }
   }
   score(){
-    if(this.Visiblity<0 && this.Visiblity > -1000){
+    if(this.Visibility<0 && this.Visibility > -1000){
     score++
     console.log("in score function" , score)
     }
